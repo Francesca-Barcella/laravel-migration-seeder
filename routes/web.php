@@ -17,8 +17,12 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('trains');
+    return view('home');
 })->name('home');
+
+Route::get('/trains', function () {
+    return view('trains');
+})->name('trains');
 
 Route::get('/news', function () {
     return view('news');
