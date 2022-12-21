@@ -6,13 +6,13 @@
                     <a class="nav-link px-3" href="{{route('home')}}">home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="{{route('trains')}}">trains</a>
+                    <a class="nav-link px-3 {{Route::currentRouteName() == 'home' ? 'active' : ''}}" href="{{route('trains')}}">trains</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="{{route('news')}}">news</a>
+                    <a class="nav-link px-3 {{Route::currentRouteName() == 'home' ? 'active' : ''}}" href="{{route('news')}}">news</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="{{route('contact')}}">contact</a>
+                    <a class="nav-link px-3 {{Route::currentRouteName() == 'home' ? 'active' : ''}}" href="{{route('contact')}}">contact</a>
                 </li>   
             </ul>
         </nav>

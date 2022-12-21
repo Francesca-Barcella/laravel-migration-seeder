@@ -4,7 +4,7 @@
             <div class="col-4">
                 <h3>Menu</h3>
                 <ul>
-                    <li>Movies</li>
+                    <li>Trains</li>
                     <li>About</li>
                     <li>News</li>
                     <li>Contact</li>
