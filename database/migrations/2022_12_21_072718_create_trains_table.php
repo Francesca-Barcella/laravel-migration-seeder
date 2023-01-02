@@ -23,7 +23,7 @@ return new class extends Migration
             $table->smallInteger('traincode');
             $table->tinyInteger('number_of_carriages');
             $table->boolean('in_time')->default(1);
-            $table->boolean('deleted', 15);
+            $table->boolean('deleted', 15)->default(0);
             $table->timestamps();
         });
 
